@@ -1,0 +1,51 @@
+{
+  "import": {
+    "scope": "javascript,typescript",
+    "prefix": "im",
+    "body": [
+      "import { $1 } from '$2';"
+    ],
+    "description": "Import a module"
+  },
+  "export-all": {
+    "scope": "javascript,typescript",
+    "prefix": "ex",
+    "body": [
+      "export * from '$2';"
+    ],
+    "description": "Export a module"
+  },
+  "vue-script-setup": {
+    "scope": "vue",
+    "prefix": "<sc",
+    "body": [
+      "<script setup>",
+      "$1",
+      "</script>",
+      "",
+      "<template>",
+      "$2",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "$3",
+      "</style>"
+    ]
+  },
+  "vue-computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "com",
+    "body": [
+      "computed(() => { $1 })"
+    ]
+  },
+  "vue-watch-effect": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "watchE",
+    "body": [
+      "watchEffect(() => {",
+      "  $1",
+      "})"
+    ]
+  },
+}
