@@ -52,7 +52,6 @@
   "explorer.confirmDragAndDrop": false,
   "window.autoDetectColorScheme": true,
   "window.dialogStyle": "custom",
-  "window.nativeTabs": true, // MacOS only8 
   "window.titleBarStyle": "custom",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -183,5 +182,4 @@
   "prettier.printWidth": 200,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "eslint.alwaysShowStatus": false,
 }
